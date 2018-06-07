@@ -1,2 +1,2 @@
 # Migmodpacks
-You can post here the issues
+Thank you :)

@@ -1,3 +1,11 @@
+_______________TIPS (these tips works after 1.4.0, I didn't used these cods for previous versions)________________________________
+* means updated
+~ means downgraded
++ means added
+- means removed
+° is a config, script or another thing that changed
+___________________________________________________________________________________________________________________________________
+
 #1.4.0
 + EluLib (elulib-0.1.12)
 + BlockCraftery (blockcraftery-0.1.3)

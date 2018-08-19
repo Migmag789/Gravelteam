@@ -1,4 +1,4 @@
-#basic tweaks for beyond the skies
+#basic tweaks for beyond the skies (by migmag789 and axsparta)
 #packmode normal expert
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
@@ -48,6 +48,7 @@ recipes.addShaped(<mekanismgenerators:generator:6>, [[<ore:gearSteel>, <ore:circ
 var restonia = <actuallyadditions:item_crystal>;
 var coil = <actuallyadditions:item_misc:7>;
 var acoil = <actuallyadditions:item_misc:8>;
+var eec = <actuallyadditions:item_crystal_empowered:4>;
 
 #other vars
 var crook = <exnihilocreatio:crook_wood>;
@@ -141,3 +142,26 @@ recipes.remove(<roots:diamond_knife>);
 recipes.addShaped(<roots:stone_knife>, [[null, <minecraft:cobblestone>, <minecraft:cobblestone>], [null, <ore:stickWood>, null], [<ore:stickWood>, null, null]]);
 recipes.addShaped(<roots:iron_knife>, [[null, <ore:ingotIron>, <ore:ingotIron>], [null, <ore:stickWood>, null], [<ore:stickWood>, null, null]]);
 recipes.addShaped(<roots:diamond_knife>, [[null, <ore:gemDiamond>, <ore:gemDiamond>], [null, <ore:stickWood>, null], [<ore:stickWood>, null, null]]);
+
+#flawless calculator (or philosopher stone 2)
+recipes.remove(<calculator:flawlesscalculator>);
+recipes.addShaped(<calculator:flawlesscalculator>, [[<draconicevolution:wyvern_core>, <calculator:calculatorscreen>, <draconicevolution:wyvern_core>], [<ore:gemDiamond>, <calculator:flawlessassembly>, <ore:gemDiamond>], [<draconicevolution:wyvern_core>, <calculator:material:8>, <draconicevolution:wyvern_core>]]);
+
+#emerald jetpack
+recipes.remove(<ironjetpacks:emerald_jetpack>);
+recipes.addShaped(<ironjetpacks:emerald_jetpack>, [[eec, <ironjetpacks:emerald_capacitor>, eec], [eec, <ore:jetpackTier4>, eec], [<ironjetpacks:emerald_thruster>, null, <ironjetpacks:emerald_thruster>]]);
+
+#advanced fuel loader fix
+recipes.remove(<extraplanets:advanced_fuel_loader>);
+recipes.addShaped(<extraplanets:advanced_fuel_loader>, [[<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>], [<ore:ingotNickel>, <galacticraftcore:fuel_loader>, <ore:ingotNickel>], [<ore:ingotPlatinum>, <extraplanets:tier5_items:8>, <ore:ingotPlatinum>]]);
+
+#atomic disassembler
+recipes.remove(<mekanism:atomicdisassembler>);
+
+#reactor controller
+recipes.remove(<mekanismgenerators:reactor>);
+recipes.addShaped(<mekanismgenerators:reactor>, [[<ore:glassReinforced>, <ore:glassReinforced>, <ore:glassReinforced>], [<mekanismgenerators:reactor:1>, <mekanismgenerators:reactor>, <mekanismgenerators:reactor:1>], [<mekanismgenerators:reactor:1>, <mekanismgenerators:reactor:1>, <mekanismgenerators:reactor:1>]]);
+
+#reactor frame
+recipes.remove(<mekanismgenerators:reactor:1>);
+recipes.addShaped(<mekanismgenerators:reactor:1> * 8, [[<ore:craftingSuperconductor>, <techreborn:part:14>, <ore:craftingSuperconductor>], [<ore:machineBlockAdvanced>, <techreborn:part:27>, <ore:machineBlockAdvanced>], [<ore:craftingSuperconductor>, <techreborn:part:14>, <ore:craftingSuperconductor>]]);

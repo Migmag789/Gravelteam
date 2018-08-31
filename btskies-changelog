@@ -3,8 +3,13 @@ _______________TIPS________________________________
 ~ means downgraded
 + means added
 - means removed
-° is a config, script or another thing that changed
+° or : is a config, script or another thing that changed
 ___________________________________________________
+
+1.6.3
+*AutoRegLib (to fix openblocks issue) [https://minecraft.curseforge.com/projects/autoreglib/files/2605109]
+:silicon chickens now drops galagicraft silicon (issue #4)
+:tweaked some things in void island control
 
 1.6.2
 *BuildingGadgets

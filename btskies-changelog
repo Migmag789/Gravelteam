@@ -18,6 +18,13 @@ ___________________________________________________
 -SoulShard TOW
 -Gravity Gun
 :tweaked ore excavation
+:extraplanets : less radiation everywhere
+:extraplanets : disabled radiation in space stations
+:extraplanets : tweaked amount of radiation reduced by anti rad drinks, decontamination unit and sleeping
+:plustic : removed avaritia compat
+:plustic : removed draconic evo compart
+:plustic : removed envtech compat
+:tinkers tool leveling : reduced needed amount of xp to level up
 
 1.6.3
 *AutoRegLib (to fix openblocks issue) [https://minecraft.curseforge.com/projects/autoreglib/files/2605109]

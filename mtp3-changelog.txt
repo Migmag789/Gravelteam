@@ -6,6 +6,13 @@ _______________TIPS (these tips works after 1.4.0, I didn't used these cods for 
 ° is a config, script or another thing that changed
 ___________________________________________________________________________________________________________________________________
 
+
+#1.4.1
++ Morpheus (Morpheus-1.12-3.3.2)
++ Bibliocraft (BiblioCraft[v2.4.5][MC1.12.2])
++ Natura (natura-1.12.2-4.3.2.62)
+* Updated every mods requiring an update
+
 #1.4.0
 + EluLib (elulib-0.1.12)
 + BlockCraftery (blockcraftery-0.1.3)

@@ -6,6 +6,9 @@ _______________TIPS________________________________
 ° or : is a config, script or another thing that changed
 ___________________________________________________
 
+1.8.0
+:lot of changes
+
 1.7.0
 +Avaritia
 +Avaritia 1.1X

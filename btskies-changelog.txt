@@ -6,6 +6,11 @@ _______________TIPS________________________________
 ° or : is a config, script or another thing that changed
 ___________________________________________________
 
+1.8.1 
+:added quests
+:changed end cake recipe
+:changed c&b wrench recipe
+
 1.8.0
 :lot of changes
 

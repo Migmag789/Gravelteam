@@ -1,1 +1,12 @@
+_______________TIPS________________________________
+* means updated
+~ means downgraded
++ means added
+- means removed
+° or : is a config, script or another thing that changed
+___________________________________________________
 
+1.1.0
++Smooth Font
+-Cardboard Boxes (there's already Mekanism ones)
+*Updated mods

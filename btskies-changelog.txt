@@ -6,6 +6,12 @@ _______________TIPS________________________________
 ° or : is a config, script or another thing that changed
 ___________________________________________________
 
+1.8.3 
++ClientTweaks
++Galacticraft Tweaker
+*Updated all mods
+*Changed compressor crafts
+
 1.8.2
 :Fixed "The End ? The End." quest.
 :Fixed the tier 8, 9 and 10 rocket quests from the Space questline, they now always appears.

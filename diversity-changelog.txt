@@ -1,1 +1,15 @@
+Diversity Changelog
 
+_______________TIPS________________________________
+* means updated
+~ means downgraded
++ means added
+- means removed
+° is a config, script or another thing that changed
+___________________________________________________
+
+1.0.3
+°added craft for TechReborn fusion coils
+
+1.0.2
+°added craft for atomic disassembler
